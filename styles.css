@@ -69,16 +69,16 @@ body::before {
     content: '';
     position: absolute;
     bottom: -2px;
-    left: 0;
-    width: 100%;
+    left: -50vw;
+    width: 100vw;
     height: 2px;
     background: linear-gradient(90deg, #00ffff, #8a2be2, #00ffff);
-    animation: scan 2s linear infinite;
+    animation: scan 4s linear infinite;
 }
 
 @keyframes scan {
-    0% { transform: translateX(-100%); }
-    100% { transform: translateX(100%); }
+    0% { transform: translateX(-100vw); }
+    100% { transform: translateX(100vw); }
 }
 
 .nav-menu {
