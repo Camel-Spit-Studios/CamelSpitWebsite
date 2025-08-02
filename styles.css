@@ -201,11 +201,11 @@ body::before {
 
 .drop {
     position: absolute;
-    width: 6px;
-    height: 12px;
-    background: linear-gradient(180deg, #00ffff 0%, #8a2be2 50%, #00ffff 100%);
+    width: 4px;
+    height: 8px;
+    background: #00ffff;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-    box-shadow: 0 0 8px #00ffff, inset 0 0 4px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 6px #00ffff;
     animation: dropFall 4s linear infinite;
     transform-origin: top center;
 }
